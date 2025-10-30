@@ -93,6 +93,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "siapaYangMenang",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -103,6 +121,25 @@
 				"name": "tambahKandidat",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "userSudahMemilih",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -147,11 +184,11 @@
 	},
 	"sources": {
 		"contracts/belajar/evoting.sol": {
-			"keccak256": "0xd177c21b7bb528e06acace2e1cf655ee566712d8a0571f1659d22ca5383c26be",
+			"keccak256": "0xd61f40900ece93cbe81e3c825a05aa52619a7f0b75712ba4d9b55302a6ec8ea7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c32c7b2290c84c1ad40af5183d75fa237716ff3f1b894c5ade82518af19cb9b",
-				"dweb:/ipfs/QmX46sDbuSRPfKPMtxm6bpnB2vJRgwqEpADtvuLdhGoCrB"
+				"bzz-raw://711d445406fb9dcc59273db42ac85ecdc4db1ba0060cda77aa50245a1b2ba685",
+				"dweb:/ipfs/QmSGfJ3KiHhFJuPCTiow9cmPXd4MhajckVcTNCJsG5eAoA"
 			]
 		}
 	},
