@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "heroes",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "umur",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "makananFavorit",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "humans",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tambahOrang",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/belajar/structArrayFunction.sol": "belajarStruct"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/belajar/structArrayFunction.sol": {
+			"keccak256": "0x6c76c7c0ca288dfbbfb499797ca1d69c4af236125a61bc4b39e132ead9df827d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6623c5c4a13c31ffc1507fd6d07094a4cb5700fb33c7b94a89cf925ce052c202",
+				"dweb:/ipfs/QmRCawi77QVpNfKjZ1G8eG9TpP3RZc42NrYkH45L5rhKhB"
+			]
+		}
+	},
+	"version": 1
+}
