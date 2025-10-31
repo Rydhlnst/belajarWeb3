@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sayAB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/belajar/inheritance.sol": "Gabungan"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/belajar/inheritance.sol": {
+			"keccak256": "0x21334d29cf0246cc6effde0d12fb5550e2060cf07e3062c11d8046266c18d733",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2db501e241a9111f92667107d57c5097ee022eb48293221dd2d601e062d892e3",
+				"dweb:/ipfs/Qmd2bwX1eVWaE58KiZxMkRyDMbFgFpt51Q2EdRw8K3Jr4h"
+			]
+		}
+	},
+	"version": 1
+}
